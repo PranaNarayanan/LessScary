@@ -8,20 +8,23 @@ Created on Tue Apr 21 12:24:15 2026
 import LessScary
 LessScary.activate()
 
+####### Uncomemnt each block below and test Less Scary  #########
+
 # ------------------------
 # NameError
 # ------------------------
-#x = y + 1
-
+# x = y + 1
+    
 # ------------------------
 # TypeError: mixing values
 # ------------------------
 # x = 5 + "hello"
+ 
 
 # ------------------------
 # TypeError: len on number
 # ------------------------
-# len(10)
+#len(10)
 
 # ------------------------
 # TypeError: calling non-function
@@ -39,7 +42,7 @@ LessScary.activate()
 # ------------------------
 # TypeError: non-iterable in loop
 # ------------------------
-# for i in 10:
+# for i in range(10):
 #     print(i)
 
 # ------------------------
@@ -63,8 +66,8 @@ LessScary.activate()
 # ------------------------
 # IndexError
 # ------------------------
-# my_list = [1, 2, 3]
-# print(my_list[5])
+#my_list = [1, 2, 3]
+#print(my_list[5])
 
 # ------------------------
 # KeyError
@@ -98,6 +101,7 @@ LessScary.activate()
 # ------------------------
 # import not_a_real_module
 
+
 # ------------------------
 # FileNotFoundError
 # ------------------------
@@ -120,10 +124,3 @@ LessScary.activate()
 # ------------------------
 # def my_func():
 # print("hello")
-
-# ------------------------
-# IndentationError: bad unindent
-# ------------------------
-# if True:
-#     print("hello")
-#   print("world")
